@@ -1,0 +1,9 @@
+.app{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+    margin: 5rem auto;
+    border-radius: 15px;
+    background: #fff;
+}

@@ -1,0 +1,23 @@
+.input{
+    margin: auto;
+    margin-left: 0;
+}
+
+.input label{
+    font-size: 1rem;
+    color: #333;
+}
+
+.input input{
+    border: none;
+    background: transparent;
+    border-bottom: solid 1px mediumslateblue;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.input input:active,
+.input input:focus{
+    outline: none;
+    border-bottom: solid 2px mediumslateblue;
+}

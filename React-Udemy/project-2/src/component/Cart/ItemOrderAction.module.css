@@ -1,0 +1,9 @@
+.itemAction button{
+    border: solid 1px maroon;
+    border-radius: 5px;
+    background-color: #fff;
+    color: maroon;
+    padding: 0 0.7rem;
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,21 @@
+.itemInfo > * {
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.itemInfo .description{
+    font-style: italic;
+}
+
+.itemInfo .price{
+    font-weight: bold;
+    color: rgba(202, 115, 1, 0.849);
+}
+
+.itemInfo .amount{
+    margin-left: 2rem;
+    padding: 0 0.5rem;
+    border: solid 1px #333;
+    border-radius: 5px;
+    color: #000;
+}

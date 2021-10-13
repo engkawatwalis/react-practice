@@ -1,0 +1,15 @@
+form{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+button{
+    background: mediumslateblue;
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}

@@ -1,0 +1,9 @@
+.amountForm input{
+width: 2rem;
+margin-left: 0.5rem;
+margin-bottom: 0.5rem;
+}
+
+.amountForm button{
+    display: block;
+}

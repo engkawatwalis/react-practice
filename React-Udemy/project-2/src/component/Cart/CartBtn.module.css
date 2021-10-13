@@ -1,0 +1,14 @@
+.CartBtn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.itemNum{
+    display: inline;
+    background-color: maroon;
+    border-radius: 15px;
+    width: 3rem;
+    padding: 0.2rem 1rem;
+    margin-left: 1rem;
+}

@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+  
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+  
+body {
+    margin: 0;
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}

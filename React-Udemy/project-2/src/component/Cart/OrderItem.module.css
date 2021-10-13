@@ -1,0 +1,11 @@
+.orderItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px maroon;
+    margin-bottom: 1rem;
+}
+
+.orderItem .price{
+    color: maroon;
+}
