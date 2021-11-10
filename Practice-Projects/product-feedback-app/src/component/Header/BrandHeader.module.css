@@ -1,0 +1,44 @@
+.brand-header{
+    background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+    color: #fff;
+    font-size: 0.8rem;
+    height: 100%;
+    padding: 0 1rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-header h1{
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.brand-header p{
+    margin: 0;
+    color: #fff;
+    font-size: 0.5rem;
+}
+
+.brand-header button{
+    border: none;
+    background: none;
+}
+
+@media (min-width: 768px) {
+    .brand-header{
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .brand-header p{
+        font-size: 0.8rem;
+    }
+
+    .brand-header > div:first-child{
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+    }
+}

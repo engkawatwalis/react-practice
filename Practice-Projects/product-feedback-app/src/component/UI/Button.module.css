@@ -1,0 +1,56 @@
+.button{
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 10px;
+    color: #F2F4FE;
+    font-weight: bold;
+}
+.button.hover{
+    cursor: pointer;
+}
+.button.purple{
+    background-color: #AD1FEA;
+}
+
+.button.purple:hover{
+    background-color: #C75AF6;
+    cursor: pointer;
+}
+
+.button.blue{
+    background-color: #4661E6;
+}
+
+.button.blue:hover{
+    background-color: #7C91F9;
+    cursor: pointer;
+}
+
+.button.navy{
+    background-color: #3A4374;
+}
+
+.button.navy:hover{
+    background-color: #656EA3;
+    cursor: pointer;
+}
+
+.button.red{
+    background-color: #D73737;
+}
+
+.button.red:hover{
+    background-color: #E98888;
+    cursor: pointer;
+}
+
+.button.neutral{
+    color: #647196;
+    background-color: transparent;
+}
+
+.button.neutral:hover{
+    cursor: pointer;
+    color: #4661E6;
+    background-color: #F7F8FD;
+}

@@ -1,0 +1,18 @@
+.add-comment-card{
+    width: 90%;
+    margin: 1rem 0;
+    padding: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.add-comment-card > *,
+.add-comment-card > form > *{
+    margin-bottom: 1rem;
+}
+
+.add-comment-card > form > button{
+    width: 100%;
+}

@@ -1,0 +1,32 @@
+.product-item{
+    width: 90%;
+    margin: 1rem 0;
+} 
+.product-item > .card{
+    
+    padding: 1.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.product-item > .card .description{
+    display: flex;
+    flex-direction: column;
+}
+.product-item > .card .description h3{
+    color: #3A4374;
+}
+
+.product-item > .card .description p{
+    color: #647196;
+}
+
+@media (min-width: 767px) {
+    .product-item > .card .description {
+        flex-direction: row-reverse;
+    }
+
+    .product-item > .card .description > div{
+        margin-left: 2rem;
+    }
+}

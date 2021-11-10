@@ -1,0 +1,11 @@
+.task-header{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.task-header > *{
+    margin-right: 5px;
+}

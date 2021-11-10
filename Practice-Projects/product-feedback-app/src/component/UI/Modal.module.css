@@ -1,0 +1,14 @@
+.backDrop{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.295);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+
+}
+.modalOverlay{
+    position: fixed;
+    z-index: 3;
+}

@@ -1,0 +1,16 @@
+.side-bar{
+    background-color: #F7F8FD;
+    top: 72px;
+    right: 0;
+    width: 70%;
+    padding: 1rem;
+    height: calc(100% - 72px);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.side-bar > * {
+    margin-bottom: 1rem;
+}

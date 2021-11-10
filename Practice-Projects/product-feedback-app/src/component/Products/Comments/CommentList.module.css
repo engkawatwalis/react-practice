@@ -1,0 +1,21 @@
+.comment-list-card {
+    width: 90%;
+    margin: 1rem 0;
+    padding: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.comment-list-card > ul{
+    width: 100%;
+}
+
+.comment-list-card > ul > li{
+    border-bottom: solid 1px rgba(196, 196, 196, 0.493);
+}
+
+.comment-list-card > ul > li:last-child{
+    border-bottom: none;
+}

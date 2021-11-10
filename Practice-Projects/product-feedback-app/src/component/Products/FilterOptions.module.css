@@ -1,0 +1,10 @@
+.filter-options{
+    position: relative;
+}
+
+.filter-options button{
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}

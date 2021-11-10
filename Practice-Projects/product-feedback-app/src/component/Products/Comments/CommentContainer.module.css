@@ -1,0 +1,26 @@
+.comment-container{
+    width: 100%;
+}
+
+.comment-container .user-info{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.comment-container .user-info .user-name{
+    margin-left: 1rem;
+}
+
+.comment-container .user-info button{
+    position: absolute;
+    right: 0;
+}
+
+.comment-container .comment-body span{
+    font-weight: bold;
+    color: #AD1FEA;
+}

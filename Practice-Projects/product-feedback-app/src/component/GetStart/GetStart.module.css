@@ -1,0 +1,68 @@
+.get-start{
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-start-card{
+    width: 90%;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+.get-start-card > *{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.get-start-card .header{
+    background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+    color: #fff;
+    padding: 2rem 1rem;
+}
+
+.get-start-card .body{
+    align-items: center;
+}
+
+.get-start-card .body > p{
+    text-align: center;
+}
+
+.get-start-card form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.get-start-card .form-control{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.get-start-card .form-control input{
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: #F7F8FD;
+}
+
+.get-start-card .form-control small{
+    color: #D73737;
+}
+
+.get-start-card form button{
+    align-self: center;
+}
+

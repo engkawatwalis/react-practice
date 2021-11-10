@@ -1,0 +1,18 @@
+.comment-header{
+    position: fixed;
+    z-index: 2;
+    height: 72px;
+    width: 100%;
+    padding: 0 1rem;
+    background-color: #F7F8FD;
+    color: #647196;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 1024px){
+    .comment-header{
+        position: relative;
+    }
+}

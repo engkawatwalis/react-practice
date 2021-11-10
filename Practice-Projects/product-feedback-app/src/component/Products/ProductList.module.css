@@ -1,0 +1,20 @@
+.product-list{
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #F7F8FD;
+    list-style: none;
+    overflow: auto;
+}
+
+@media (min-width: 768px) {
+    .product-list{
+        margin-top: 1rem;
+    }
+
+    .product-list > li{
+        width: 100%;
+    }
+}

@@ -1,0 +1,20 @@
+.products-header{
+    position: fixed;
+    height: 56px;
+    width: 100%;
+    padding: 0 1rem;
+    background-color: #373F68;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+
+    .products-header{
+        position: relative;
+        border-radius: 10px;
+        height: 72px;
+    }
+}

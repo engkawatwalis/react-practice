@@ -1,0 +1,35 @@
+.drop-down{
+    width: 200px;
+    box-shadow: 0px 10px 40px -7px rgba(55, 63, 104, 0.350492);
+    position: absolute;
+    z-index: 1;
+    top: 3rem;
+    left: 0;
+}
+
+.drop-down ul{
+    list-style: none;
+    
+}
+
+.drop-down li{
+    padding: 1rem;
+    border-bottom: 1px solid #9797976c;
+}
+
+.drop-down li:last-child{
+    border: none;
+}
+
+.drop-down li > a{
+    text-decoration: none;
+    color: #647196;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.drop-down li > a:hover{
+    color: #AD1FEA;
+    cursor: pointer;
+}

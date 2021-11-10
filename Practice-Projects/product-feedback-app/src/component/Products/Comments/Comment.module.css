@@ -1,0 +1,19 @@
+.comment{
+    width: 100%;
+    height: 100%;
+    background-color: #F7F8FD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.comment > li{
+    margin-top: 72px;
+}
+
+@media (min-width: 1024px){
+    .comment > li{
+        margin-top: 2rem;
+    }
+}

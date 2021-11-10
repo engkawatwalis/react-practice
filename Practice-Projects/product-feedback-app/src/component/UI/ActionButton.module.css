@@ -1,0 +1,48 @@
+.action-button{
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem 1.2rem;
+    margin: 5px 0;
+    border-radius: 10px;
+    background-color: #F2F4FE;
+    color: #4661E6;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.action-button:hover{
+    cursor: pointer;
+    background-color: #CFD7FF;
+}
+.action-button.active{
+    background-color: #4661E6;
+    color: #fff;
+}
+
+.action-button.vote,
+.action-button.comment{
+    color: #3A4374;
+    font-weight: bold;
+}
+
+.action-button.comment{
+    background: none;
+}
+
+.action-button img{
+    margin-right: 5px;
+}
+
+@media (min-width: 768px) {
+    .action-button.vote{
+        flex-direction: column;
+        justify-content: space-between;
+        width: 2.5rem;
+        padding: 0.8rem 0.5rem;
+    }
+
+    .action-button.vote img{
+        margin: 0;
+    }
+}
